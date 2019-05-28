@@ -1,0 +1,142 @@
+﻿  main.cpp
+C:\Users\tien\source\repos\Template\Template\Stack.h(4): error C2059: syntax error: '<'
+C:\Users\tien\source\repos\Template\Template\Stack.h(4): error C2238: unexpected token(s) preceding ';'
+C:\Users\tien\source\repos\Template\Template\Stack.h(6): error C3646: 'data': unknown override specifier
+C:\Users\tien\source\repos\Template\Template\Stack.h(6): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\tien\source\repos\Template\Template\Stack.h(7): error C2061: syntax error: identifier 'U'
+C:\Users\tien\source\repos\Template\Template\Stack.h(7): error C2065: 'd': undeclared identifier
+C:\Users\tien\source\repos\Template\Template\Stack.h(7): error C2614: 'Element': illegal member initialization: 'data' is not a base or member
+C:\Users\tien\source\repos\Template\Template\Stack.h(22): error C2989: 'Stack': class template has already been declared as a non-class template
+  C:\Users\tien\source\repos\Template\Template\Stack.h(4): note: see declaration of 'Stack'
+C:\Users\tien\source\repos\Template\Template\Stack.h(9): error C3857: 'Stack': multiple template parameter lists are not allowed
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\sal.h(2361): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\sal.h(2361): error C2059: syntax error: 'string'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\sal.h(2361): error C2143: syntax error: missing ';' before '{'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\sal.h(2361): error C2447: '{': missing function header (old-style formal list?)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\vcruntime.h(284): error C2065: 'uintptr_t': undeclared identifier
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\vcruntime.h(284): error C2146: syntax error: missing ')' before identifier '_StackCookie'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\vcruntime.h(292): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\vcruntime.h(292): error C2146: syntax error: missing ';' before identifier '__security_cookie'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\vcruntime.h(300): warning C4161: #pragma pack(pop...): more pops than pushes
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(275): error C2061: syntax error: identifier 'uintptr_t'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(287): error C2061: syntax error: identifier 'uintptr_t'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\crtdbg.h(631): error C2061: syntax error: identifier 'va_list'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\crtdbg.h(641): error C2061: syntax error: identifier 'va_list'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stddef.h(53): error C2143: syntax error: missing ';' before '__cdecl'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stddef.h(53): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stddef.h(53): error C2370: 'uintptr_t': redefinition; different storage class
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\vcruntime.h(292): note: see declaration of 'uintptr_t'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdlib.h(164): error C2061: syntax error: identifier 'uintptr_t'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(274): error C2061: syntax error: identifier 'va_list'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(283): error C2061: syntax error: identifier 'va_list'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(292): error C2061: syntax error: identifier 'va_list'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(300): error C2061: syntax error: identifier 'va_list'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(306): error C2065: '_ArgList': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(314): error C2061: syntax error: identifier 'va_list'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(320): error C2065: '_ArgList': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(329): error C2061: syntax error: identifier 'va_list'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(335): error C2065: '_ArgList': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(345): error C2061: syntax error: identifier 'va_list'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(351): error C2065: '_ArgList': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(362): error C2061: syntax error: identifier 'va_list'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(368): error C2065: '_ArgList': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(376): error C2061: syntax error: identifier 'va_list'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(382): error C2065: '_ArgList': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(390): error C2061: syntax error: identifier 'va_list'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(396): error C2065: '_ArgList': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(403): error C2061: syntax error: identifier 'va_list'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(409): error C2065: '_ArgList': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(417): error C2061: syntax error: identifier 'va_list'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(423): error C2065: '_ArgList': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(432): error C2061: syntax error: identifier 'va_list'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(438): error C2065: '_ArgList': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(448): error C2061: syntax error: identifier 'va_list'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(454): error C2065: '_ArgList': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(461): error C2061: syntax error: identifier 'va_list'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(467): error C2065: '_ArgList': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(482): error C2065: 'va_list': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(482): error C2146: syntax error: missing ';' before identifier '_ArgList'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(482): error C2065: '_ArgList': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(483): error C2065: '_ArgList': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(483): error C2065: 'va_list': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(484): error C2065: '_ArgList': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(485): error C2065: '_ArgList': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(485): error C2065: 'va_list': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(485): error C2059: syntax error: 'constant'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(500): error C2065: 'va_list': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(500): error C2146: syntax error: missing ';' before identifier '_ArgList'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(500): error C2065: '_ArgList': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(501): error C2065: '_ArgList': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(501): error C2065: 'va_list': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(502): error C2065: '_ArgList': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(503): error C2065: '_ArgList': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(503): error C2065: 'va_list': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(503): error C2059: syntax error: 'constant'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(519): error C2065: 'va_list': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(519): error C2146: syntax error: missing ';' before identifier '_ArgList'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(519): error C2065: '_ArgList': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(520): error C2065: '_ArgList': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(520): error C2065: 'va_list': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(521): error C2065: '_ArgList': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(522): error C2065: '_ArgList': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(522): error C2065: 'va_list': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(522): error C2059: syntax error: 'constant'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(539): error C2065: 'va_list': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(539): error C2146: syntax error: missing ';' before identifier '_ArgList'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(539): error C2065: '_ArgList': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(540): error C2065: '_ArgList': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(540): error C2065: 'va_list': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(541): error C2065: '_ArgList': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(542): error C2065: '_ArgList': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(542): error C2065: 'va_list': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(542): error C2059: syntax error: 'constant'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(560): error C2065: 'va_list': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(560): error C2146: syntax error: missing ';' before identifier '_ArgList'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(560): error C2065: '_ArgList': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(561): error C2065: '_ArgList': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(561): error C2065: 'va_list': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(562): error C2065: '_ArgList': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(563): error C2065: '_ArgList': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(563): error C2065: 'va_list': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(563): error C2059: syntax error: 'constant'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(578): error C2065: 'va_list': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(578): error C2146: syntax error: missing ';' before identifier '_ArgList'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(578): error C2065: '_ArgList': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(579): error C2065: '_ArgList': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(579): error C2065: 'va_list': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(580): error C2065: '_ArgList': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(581): error C2065: '_ArgList': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(581): fatal error C1003: error count exceeds 100; stopping compilation
+  Stack.cpp
+C:\Users\tien\source\repos\Template\Template\Stack.h(4): error C2059: syntax error: '<'
+C:\Users\tien\source\repos\Template\Template\Stack.h(4): error C2238: unexpected token(s) preceding ';'
+C:\Users\tien\source\repos\Template\Template\Stack.h(6): error C3646: 'data': unknown override specifier
+C:\Users\tien\source\repos\Template\Template\Stack.h(6): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\tien\source\repos\Template\Template\Stack.h(7): error C2061: syntax error: identifier 'U'
+C:\Users\tien\source\repos\Template\Template\Stack.h(7): error C2065: 'd': undeclared identifier
+C:\Users\tien\source\repos\Template\Template\Stack.h(7): error C2614: 'Element': illegal member initialization: 'data' is not a base or member
+C:\Users\tien\source\repos\Template\Template\Stack.h(22): error C2989: 'Stack': class template has already been declared as a non-class template
+  C:\Users\tien\source\repos\Template\Template\Stack.h(4): note: see declaration of 'Stack'
+C:\Users\tien\source\repos\Template\Template\Stack.h(9): error C3857: 'Stack': multiple template parameter lists are not allowed
+C:\Users\tien\source\repos\Template\Template\Stack.cpp(5): error C2988: unrecognizable template declaration/definition
+C:\Users\tien\source\repos\Template\Template\Stack.cpp(5): error C2143: syntax error: missing ';' before '<'
+C:\Users\tien\source\repos\Template\Template\Stack.cpp(5): error C2182: 'Stack': illegal use of type 'void'
+C:\Users\tien\source\repos\Template\Template\Stack.cpp(5): error C2059: syntax error: '<'
+C:\Users\tien\source\repos\Template\Template\Stack.cpp(5): error C2039: 'push': is not a member of '`global namespace''
+C:\Users\tien\source\repos\Template\Template\Stack.cpp(5): error C2143: syntax error: missing ';' before '{'
+C:\Users\tien\source\repos\Template\Template\Stack.cpp(5): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\tien\source\repos\Template\Template\Stack.cpp(9): error C2988: unrecognizable template declaration/definition
+C:\Users\tien\source\repos\Template\Template\Stack.cpp(9): error C2143: syntax error: missing ';' before '<'
+C:\Users\tien\source\repos\Template\Template\Stack.cpp(9): error C2371: 'Stack': redefinition; different basic types
+  C:\Users\tien\source\repos\Template\Template\Stack.cpp(5): note: see declaration of 'Stack'
+C:\Users\tien\source\repos\Template\Template\Stack.cpp(9): error C2059: syntax error: '<'
+C:\Users\tien\source\repos\Template\Template\Stack.cpp(9): error C2039: 'pop': is not a member of '`global namespace''
+C:\Users\tien\source\repos\Template\Template\Stack.cpp(9): error C2143: syntax error: missing ';' before '{'
+C:\Users\tien\source\repos\Template\Template\Stack.cpp(9): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\tien\source\repos\Template\Template\Stack.cpp(16): error C2988: unrecognizable template declaration/definition
+C:\Users\tien\source\repos\Template\Template\Stack.cpp(16): error C2143: syntax error: missing ';' before '<'
+C:\Users\tien\source\repos\Template\Template\Stack.cpp(16): error C2059: syntax error: '<'
+C:\Users\tien\source\repos\Template\Template\Stack.cpp(16): error C2523: '::~Stack': destructor tag mismatch
+C:\Users\tien\source\repos\Template\Template\Stack.cpp(16): error C2143: syntax error: missing ';' before '{'
+C:\Users\tien\source\repos\Template\Template\Stack.cpp(16): error C2447: '{': missing function header (old-style formal list?)
+  Generating Code...
