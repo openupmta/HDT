@@ -1,0 +1,92 @@
+
+#pragma once
+#include "LinkedList.h"
+
+template <class T>
+class Stack : public LinkedList<T>
+{
+public:
+	void push(T);
+};
+
+
+template <class T>
+void Stack<T>::push(T p)
+{
+	typename LinkedList<T>::Data* temp = new typename LinkedList<T>::Data;
+	temp->info = p;
+	temp->next = LinkedList<T>::first;
+	LinkedList<T>::first = temp;
+	cout << "Dang push trong stack ne`\n";
+}
+
+template <class T>
+class StackArr
+{
+private:
+	unsigned int top;
+	unsigned int size;
+	T* DataArr;
+public:
+	StackArr();
+	StackArr(unsigned int size);
+	void push(T);
+	T pop();
+	bool isFull();
+	bool isEmpty();
+};
+
+template<class T>
+inline StackArr<T>::StackArr()
+{
+	size = 10;
+	top = 0;
+	DataArr = new T[10];
+	cout << "StackArr is initialized with size = 10" << endl;
+}
+
+template<class T>
+inline StackArr<T>::StackArr(unsigned int size)
+{
+	this->size = size;
+	top = 0;
+	DataArr = new T[size];
+	cout << "StackArr is initialized with size = " << size << endl;
+}
+
+template<class T>
+inline void StackArr<T>::push(T val)
+{
+	if (isFull())
+	{
+		cout << "StackArr is full, cannot push " << val << endl;
+		return;
+	}
+
+	DataArr[top] = val;
+	top++;
+}
+
+template<class T>
+inline T StackArr<T>::pop()
+{
+	if (isEmpty())
+	{
+		cout << "Stack is empty, default value of typename class will be returned" << endl;
+		return T();
+	}
+
+	return DataArr[--top];
+}
+
+template<class T>
+inline bool StackArr<T>::isFull()
+{
+	return (top >= size);
+}
+
+template<class T>
+inline bool StackArr<T>::isEmpty()
+{
+	return (top == 0);
+}

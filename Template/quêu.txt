@@ -1,0 +1,131 @@
+#pragma once
+#include "LinkedList.h"
+
+template<class T>
+class Queue : public LinkedList<T>
+{
+private:
+	LinkedList<T>::Data* last;
+
+public:
+	Queue();
+	void push(T);
+	T pop();
+};
+
+template<class T>
+Queue<T>::Queue()
+{
+	last = NULL;
+}
+
+template<class T>
+inline void Queue<T>::push(T p)
+{
+	typename LinkedList<T>::Data* temp = new typename LinkedList<T>::Data;
+	temp->info = p;
+	temp->next = NULL;
+
+	if (LinkedList<T>::isEmpty()) LinkedList<T>::first = temp;
+	else last->next = temp;
+
+	last = temp;
+}
+
+template<class T>
+inline T Queue<T>::pop()
+{
+	if (LinkedList<T>::isEmpty())
+	{
+		cout << "Queue is empty" << endl;
+		return -1;
+	}
+
+	T returnValue = LinkedList<T>::first->info;
+	LinkedList<T>::first = LinkedList<T>::first->next;
+
+	return returnValue;
+}
+
+
+template <class T>
+class QueueArr
+{
+private:
+	unsigned int head;
+	unsigned int tail;
+	unsigned int size;
+	unsigned int length;
+	T* DataArr;
+public:
+	QueueArr();
+	QueueArr(unsigned int size);
+	void push(T);
+	T pop();
+	bool isFull();
+	bool isEmpty();
+};
+
+template<class T>
+inline QueueArr<T>::QueueArr()
+{
+	size = 10;
+	head = 0;
+	tail = -1;
+	length = 0;
+	DataArr = new T[10];
+	cout << "QueueArr is initialized with size = 10" << endl;
+}
+
+template<class T>
+inline QueueArr<T>::QueueArr(unsigned int size)
+{
+	this->size = size;
+	head = 0;
+	tail = -1;
+	length = 0;
+	DataArr = new T[size];
+	cout << "QueueArr is initialized with size = " << size << endl;
+}
+
+template<class T>
+inline void QueueArr<T>::push(T val)
+{
+	if (isFull())
+	{
+		cout << "Queue is full. Cannot push " << val << endl;
+		return;
+	}
+
+	length++;
+	(tail == size - 1) ? tail = 0 : tail++;
+	DataArr[tail] = val;
+}
+
+template<class T>
+inline T QueueArr<T>::pop()
+{
+	if (isEmpty())
+	{
+		cout << "Queue is empty. Default value will be returned" << endl;
+		return T();
+	}
+
+	length--;
+	unsigned int returnIndex = head;
+	(head == size - 1) ? head = 0 : head++;
+
+	return DataArr[returnIndex];
+}
+
+template<class T>
+inline bool QueueArr<T>::isFull()
+{
+	return length == size;
+}
+
+template<class T>
+inline bool QueueArr<T>::isEmpty()
+{
+	return length == 0;
+}

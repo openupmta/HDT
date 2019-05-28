@@ -1,0 +1,58 @@
+#pragma once
+#include <iostream>
+#include<string>
+#include<conio.h>
+
+using namespace std;
+
+template <class T>
+class LinkedList
+{
+protected:
+	
+	class Data
+	{
+	public:
+		T info;
+		Data* next;
+	};
+
+	Data* first;
+
+public:
+	LinkedList();
+	bool isEmpty();
+	virtual void push(T);
+	virtual T pop();
+};
+
+template <class T>
+void LinkedList<T>::push(T p)
+{
+	Data* temp = new Data;
+	temp->info = p;
+	temp->next = first;
+	first = temp;
+}
+
+
+template<class T>
+T LinkedList<T>::pop()
+{
+	T returnValue = first->info;
+	first = first->next;
+
+	return returnValue;
+}
+
+template <class T>
+LinkedList<T>::LinkedList()
+{
+	first = NULL;
+}
+
+template<class T>
+bool LinkedList<T>::isEmpty()
+{
+	return (first == NULL);
+}

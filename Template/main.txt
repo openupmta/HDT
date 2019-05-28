@@ -1,0 +1,51 @@
+#include "LinkedList.h"
+#include "Stack.h"
+#include "Queue.h"
+
+template <class T>
+void push57(LinkedList<T>& L, T var1, T var2)
+{
+	L.push(var1);
+	L.push(var2);
+
+	while (!L.isEmpty())
+		cout << L.pop() << endl;
+}
+int main()
+{
+	LinkedList<int> *Huy = new LinkedList<int>;
+	Stack<string> st;
+	Queue<float> fl;
+
+	//push57<string>(st, "he", "hai");
+	//push57<float>(fl, 5.5, 9.2);
+	//push57<int>(*Huy, 62, 79);
+
+	//StackArr<int> test1(2);
+	//test1.push(1);
+	//test1.push(2);
+	//test1.push(3);
+	//while (!test1.isEmpty())
+	//	cout << test1.pop() << endl;
+
+	QueueArr<int> test2(4);
+	for (int i = 1; i <= 5; i++)
+		test2.push(i);
+
+	//while (test2.isEmpty() == false)
+	//	cout << test2.pop() << endl;
+
+	for (int i = 0; i < 7; i++)
+		cout << test2.pop() << endl;
+
+	cout << "Push xong lan dau tien" << endl;
+
+	for (int i = 1; i <= 5; i++)
+		test2.push(i);
+	while (test2.isEmpty() == false)
+		cout << test2.pop() << endl;
+
+
+	system("pause");
+	return 0;
+}
